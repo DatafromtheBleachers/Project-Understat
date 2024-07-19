@@ -75,4 +75,5 @@ Leverkusen could not have gotten where they are if it was not due to the contrib
 - Second Best: Floriant Wirtz (Assists) + Victor Boniface (Assists). The pair seems to work really well together. 
 - This shows that Álex Grimaldo does not assist as much as the other players in the top 5 besides Florian Wirtz.    
 
-![image](https://github.com/user-attachments/assets/132a03b4-d7ff-48f0-a8b0-a0778abd502b)
+![image](https://github.com/user-attachments/assets/525dd60c-9fe1-474f-a57a-ca71981c06cc)
+
