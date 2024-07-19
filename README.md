@@ -14,7 +14,6 @@ Using Bayer Leverkusen - We will answer the following questions:
 1. [Introduction](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#introduction)
 2. [Methodology](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#methodology)
 3. [Results](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#results)
-4. Upgrates
 
 # Introduction
 Understat.com is a website that provides detailed Expected Goals (xG) statistics for teams and players from the top European football leagues.
@@ -61,6 +60,8 @@ Leverkusen could not have gotten where they are if it was not due to the contrib
 
 # 3) From the player that scores the most: Where does he prefers to shoot and also where does he score the most goals? #
 
+In the case of Bayer Leverkusen: Boniface takes the first place. 
+
 ## Shot Heatmap ##
 
 - Boniface looks to place himself in areas with near the penalty spot.
@@ -73,7 +74,6 @@ Leverkusen could not have gotten where they are if it was not due to the contrib
 # 4) Who is the best "duo" (Goals and assisted the most) #
 - Victor Boniface(Goals) + Floriant Wirtz(Assists) generated the most goals.
 - Second Best: Floriant Wirtz (Assists) + Victor Boniface (Assists). The pair seems to work really well together. 
-- This shows that Álex Grimaldo does not assist as much as the other players in the top 5 besides Florian Wirtz.    
-
+- This shows that Álex Grimaldo only assisted one player out of the top 5.
 ![image](https://github.com/user-attachments/assets/525dd60c-9fe1-474f-a57a-ca71981c06cc)
 
