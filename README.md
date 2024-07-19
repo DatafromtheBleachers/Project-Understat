@@ -1,7 +1,7 @@
-# Evaluating Players' performance using Understat
+# Evaluating Players' performance in their local leagues using Understat
 ## by Anthony Verdesca
 
-The code helps to evaluate which players are the most influential for a team during the calendar year webscraping data from Understat.com.  
+The code helps to evaluate which players are the most influential for a team in their local leagues during the calendar year webscraping data from Understat.com.  
 
 Using Bayer Leverkusen - We will answer the following questions:
 
@@ -13,7 +13,7 @@ Using Bayer Leverkusen - We will answer the following questions:
 # Executive Summary
 1. [Introduction](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#introduction)
 2. [Methodology](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#methodology)
-3. Results
+3. [Results](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#results)
 4. Upgrates
 
 # Introduction
@@ -29,24 +29,50 @@ Data is extracted as a collection of shooting events by teams and by players.
 # Methodology
 
 The process consisted in 3 stages:
-1) Webscraping understat using MyBeautifulSoup
-2) Data Cleaning 
-3) Data Visualization using barplots, histograms, mplsoccer and heatmaps
+1) [Webscraping understat using MyBeautifulSoup](https://github.com/DatafromtheBleachers/Understat/blob/main/Codes/Project-Understat-Webscraping.ipynb)
+2) [Data Cleaning](https://github.com/DatafromtheBleachers/Understat/blob/main/Codes/Project-Understat-Data-Cleaning.ipynb) 
+3) [Data Visualization using barplots, histograms, mplsoccer and heatmaps](https://github.com/DatafromtheBleachers/Understat/blob/main/Project-Understat.ipynb)
 
 First, lets have a look in the format of the data once is scrapped:
 ![image](https://github.com/user-attachments/assets/9d4b7817-98af-4101-a04d-328861636a37)
 
-## A brief explanation of each column: ##
+# Results
 
-**date**: The date of the shot event.
-**minute**: The minute of the game where the shot event happened.
-**MatchID**: ID of the match that was played.
-**x**: x coordinate on the soccer field.
-**y**: y coordinate on the soccer field.
-**xG**: Goal Expectation - A value of the odds of a shoot to end up as a goal.
-**result**: Whether the shot event ended up as a Goal, Missed, Blocked, Saved or Own Goal.
-**team**: Team that is generating the shot event.
-**Home_Away**: If **team** was playing at home or was a visitor.
-**player**: Player generating the shot event.
-**player_assisted**: Player that provided the assist. If **player** generate its own shot event, then this will be "NaN".
-**Shottype**: Type of shot: Left foot, Right foot or a header.
+## 1) Who are the 5 most influential players for Goal Events? (Goals + Assists) ##
+
+Leverkusen could not have gotten where they are if it was not due to the contributions of these players. It is interesting to see how accurate Álex Grimaldo was on the scoring ocassions he had, as his Goal Expectations seemed to be around ~6 Goals at most, while he outperformed generating 10! 
+
+![image](https://github.com/user-attachments/assets/1ebb173f-c54f-445d-a3e1-171945490623)
+
+## 2) How is the performance of the 5 most influential players during the season (Month by month and by minutes played) ##
+
+### Month by Month ###
+
+- Boniface was having a very prolific start of the season, but it took him a while to get back into the scoreboard after the winter break.
+- Álex Grimaldo provided Assists or Goals during at least once a year. Clearly a strong and dangerous player for the rivals.
+
+![image](https://github.com/user-attachments/assets/a204861d-cc40-4405-baa6-51275fb4fc1b)
+
+## By Minutes Played ##
+- Álex Grimaldo is a complete threat during the whole game - He is able to assist or score at any point in the match, same as Florian Wirtz.
+- Special attention to the block of time between the 50th and the 70th minute, where a higher number of Boniface and Wirtz's goals/assist came up.
+
+![image](https://github.com/user-attachments/assets/32ca2367-48c3-4da4-85b5-bae564adc1c0)
+
+# 3) From the player that scores the most: Where does he prefers to shoot and also where does he score the most goals? #
+
+## Shot Heatmap ##
+
+- Boniface looks to place himself in areas with near the penalty spot.
+![image](https://github.com/user-attachments/assets/1248c285-241f-42c2-a7bd-209082c19640)
+
+## Goal Heatmap ##
+- Once again, although more faded, the higher amount of goals is located near the penalty spot. 
+![image](https://github.com/user-attachments/assets/05ce126a-ae3e-4fbe-bb15-03d1339c9999)
+
+# 4) Who is the best "duo" (Goals and assisted the most) #
+- Victor Boniface(Goals) + Floriant Wirtz(Assists) generated the most goals.
+- Second Best: Floriant Wirtz (Assists) + Victor Boniface (Assists). The pair seems to work really well together. 
+- This shows that Álex Grimaldo does not assist as much as the other players in the top 5 besides Florian Wirtz.    
+
+![image](https://github.com/user-attachments/assets/132a03b4-d7ff-48f0-a8b0-a0778abd502b)
