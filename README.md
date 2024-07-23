@@ -11,7 +11,7 @@ Using Bayer Leverkusen - We will answer the following questions:
 4) Who is the best "duo" (Goals and assisted the most)
 
 # Executive Summary
-1.[Introduction](https://github.com/DatafromtheBleachers/Understat/main/README.md#introduction)
+1.[Introduction](https://github.com/DatafromtheBleachers/Understat/README.md#introduction)
 2. [Methodology](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#Methodology)
 3. [Results](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#Results)
 
