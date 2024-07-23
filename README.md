@@ -11,9 +11,9 @@ Using Bayer Leverkusen - We will answer the following questions:
 4) Who is the best "duo" (Goals and assisted the most)
 
 # Executive Summary
-1.[Introduction](https://github.com/DatafromtheBleachers/Understat/README.md#introduction)
-2. [Methodology](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#Methodology)
-3. [Results](https://github.com/DatafromtheBleachers/Understat/new/main?filename=README.md#Results)
+1.[Introduction](#introduction)
+2. [Methodology](#methodology)
+3. [Results](#results)
 
 # Introduction
 Understat.com is a website that provides detailed Expected Goals (xG) statistics for teams and players from the top European football leagues.
