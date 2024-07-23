@@ -11,7 +11,7 @@ Using Bayer Leverkusen - We will answer the following questions:
 4) Who is the best "duo" (Goals and assisted the most)
 
 # Executive Summary
-1.[Introduction](#introduction)
+1. [Introduction](#introduction)
 2. [Methodology](#methodology)
 3. [Results](#results)
 
