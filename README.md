@@ -73,7 +73,7 @@ In the case of Bayer Leverkusen: Boniface takes the first place.
 
 # 4) Who is the best "duo" (Goals and assisted the most) #
 - Victor Boniface(Goals) + Floriant Wirtz(Assists) generated the most goals.
-- Second Best: Floriant Wirtz (Assists) + Victor Boniface (Assists). The pair seems to work really well together. 
+- Second Best: Floriant Wirtz (Goals) + Victor Boniface (Assists). The pair seems to work really well together. 
 - This shows that Álex Grimaldo only assisted one player out of the top 5.
 ![image](https://github.com/user-attachments/assets/525dd60c-9fe1-474f-a57a-ca71981c06cc)
 
